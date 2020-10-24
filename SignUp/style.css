@@ -1,0 +1,95 @@
+
+      html, body {
+        min-height: 100%;
+        }
+        body, div, form, input, select, p { 
+        padding: 0;
+        margin: 0;
+        outline: none;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        color: #eee;
+        background-color:transparent;
+        }
+        body {
+        background-image: url("./bg5.jpg");
+        background-size: cover;
+        }
+        h1, h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+        }
+        term {
+          background: transparent;
+          border: none;
+        }
+      
+        .main-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 25px;
+ 
+        }
+   
+      
+        form {
+        background: rgba(0, 0, 0, 0.5); 
+        border-radius: 30px;
+        padding: 50px;
+        position: relative;
+        top: 200px;
+        left: -10px;
+        }
+     
+        .info {
+        display: flex;
+        flex-direction: column;
+        }
+        input, select {
+        padding: 5px;
+        margin-bottom: 30px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #eee;
+        }
+        input::placeholder {
+        color: #eee;
+        }
+      
+     
+        .checkbox input {
+        margin: 0 10px 0 0;
+        vertical-align: middle;
+        }
+        .checkbox a {
+        color: #CA642D;
+        }
+        .checkbox a:hover {
+        color: #60ce28;
+        }
+       
+        @media (max-width: 400px) {
+        html, body {
+        height: 100%;
+        }
+        .main-block {
+        border-radius: 50px;
+        }
+        }
+
+        button
+        {
+          padding: 10px 5px;
+     margin-top: 20px;
+     border-radius: 5px; 
+     border: none;
+     background: #676767;
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 400;
+     color: #fff;
+          width: 100%;
+        }
